@@ -1,0 +1,39 @@
+{
+  "name": "hydrogarden-app",
+  "version": "1.0.0",
+  "description": "A comprehensive React-based hydroponic garden management system with Hebrew RTL support",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "analyze": "npm run build && npx webpack-bundle-analyzer build/static/js/*.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.26.0",
+    "react-datepicker": "^8.4.0",
+    "gapi-script": "^1.2.0",
+    "react-native-web": "^0.19.9",
+    "lucide-react": "^0.263.1",
+    "framer-motion": "^7.2.1"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
